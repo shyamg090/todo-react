@@ -1,13 +1,122 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Neucha', cursive;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+body{
+
+  width: 100%;
+  height: 100vh;
+
+  background-image: url('../src/images/bg-img.jpg');
+  background-repeat: no-repeat;
+  /* sets backgroung to not repeat */
+  background-attachment: fixed;
+  /* makes it not to scroll */
+  background-position: center;
+  /* makes backgroung position to centre of the image */
+  background-size: cover;
+  position: absolute;
+  z-index: -99;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.container > .year{
+  margin: 2rem;
+  padding: .7rem;
+  color: white;
+  background-color: rgba(1, 0, 2, 0.652);
+}
+.container > .year > h1 > img{
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: 0 1rem
+}
+/* top todo.jsx */
+.top> form{
+  width: 100%;
+}
+
+.top > form > input {
+  width: 19rem;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  margin: 1rem;
+  color: rgb(244, 170, 0);
+  background-color: azure;
+  border: none;
+  text-align: center;
+}
+.top > form > button{
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: .5rem;
+  color: rgb(255, 255, 255);
+  background-color: orangered;
+  border: none;
+}
+
+/* todolist todo.jsx */
+.todoList{
+
+  width: 85%;
+  color: white;
+  font-size: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+
+}
+.singleList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 116%;
+  margin: .4rem 0;
+  padding-top: 1rem;
+}
+.img{
+  margin: 4px;
+  padding: 0;
+}
+.h3Tag{
+  width:90%;
+  /* margin: 1rem; */
+}
+.h3Tag > h3{
+  word-wrap: break-word;
+}
+
+.img > img{
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: 0;
+}
+
+.emptyList-button > form > button{
+  align-items: center;
+  font-size: 1.2rem;
+  margin:  2rem  0;
+  padding: .5rem;
+  color: rgb(255, 255, 255);
+  background-color: orangered;
+  border: none;
 }
