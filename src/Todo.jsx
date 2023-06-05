@@ -66,7 +66,7 @@ function Todo() {
           <input
             type="text"
             value={input}
-            placeholder="🐱‍👤Enter the todo🐱‍👤"
+            placeholder="^_^ Enter the todo ^_^"
             onChange={(event) => {
               setInput(event.target.value);
             }}

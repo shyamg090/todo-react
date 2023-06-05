@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Todo-List Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Todo-List project built using ReactJS and pure CSS. The project allows users to create, manage, and track their tasks in a simple and intuitive interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Task Creation**: Users can easily create new tasks by typing the task name and pressing Enter or clicking the "Add Task" button.
 
-### `npm start`
+- **Task Management**: Each task in the list can be managed with the following actions:
+  - Marking a task as complete or incomplete
+  - Editing a task name
+  - Deleting a task
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Persistence**: The project utilizes the browser's local storage to persist the task data. This means that even if the user refreshes the page or closes and reopens the browser, their tasks will be saved and restored.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run the Todo-List project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Ensure you have Node.js and npm (Node Package Manager) installed on your machine.
 
-### `npm run build`
+2. Clone this repository to your local machine or download the ZIP file and extract it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Open a terminal and navigate to the project's root directory.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Run the following command to install the project dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+5. Once the installation is complete, start the development server by running the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. The project will now be running on `http://localhost:3000`. Open this URL in your web browser to access the Todo-List application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- To create a new task, type the task name in the input field at the top and press Enter or click the "Add Task" button.
 
-## Learn More
+- To edit a task name, double-click on the task name, make the desired changes, and press Enter to save the changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- To delete a task, click the delete icon (trash can) next to the task.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The task data will be automatically saved in the browser's local storage, so you can close the application or refresh the page without losing your tasks.
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The Todo-List project is built using the following technologies:
 
-### Analyzing the Bundle Size
+- ReactJS: A JavaScript library for building user interfaces. It provides a component-based architecture and helps in creating reusable UI components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- CSS: Cascading Style Sheets is used for styling the user interface of the application.
 
-### Making a Progressive Web App
+- HTML: Hypertext Markup Language is used for creating the structure of the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- JavaScript: The programming language used for implementing the application logic and interactivity.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions to the Todo-List project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the project's GitHub repository.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Todo-List project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and use the code according to the terms of the license.
