@@ -7,6 +7,7 @@
   letter-spacing: 4px;
   font-weight: 600;
   scroll-behavior: smooth;
+  cursor: pointer;
 }
 body{
 
@@ -37,8 +38,8 @@ body{
 }
 
 .container > .year{
-  margin: 2rem;
-  padding: .7rem;
+  margin: 2rem 1rem;
+  padding: .4rem;
   color: white;
   background-color: rgba(1, 0, 2, 0.652);
 }
@@ -57,10 +58,11 @@ body{
   padding: 0.5rem;
   font-size: 1.8rem;
   margin: 1rem;
-  color: rgb(244, 170, 0);
+  color: rgb(255, 82, 2);
   background-color: azure;
   border: none;
   text-align: center;
+  cursor: text;
 }
 .top > form > button{
   align-items: center;
