@@ -7,7 +7,7 @@ function App() {
   const currYear= new Date().getFullYear();
   const[year, setYear]= useState(currYear)
   const currMonth= new Date().getMonth();
-  const[month, setMonth]=useState(currMonth)
+  const[month, setMonth]=useState(currMonth+1)
   const currDate= new Date().getDate();
   const[date, setDate]=useState(currDate)
 
