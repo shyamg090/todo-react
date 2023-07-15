@@ -106,7 +106,7 @@ function Todo() {
         {todo.map((item) => {
           return (
             <div className="singleList" key={item.id}
-            style={{backgroundColor: item.completed ? "rgba(1, 0, 2, 0.652)" : null}} >
+            style={{backgroundColor: item.completed ? "rgba(1, 0, 2, 0.652)" : null , textDecoration: item.completed ? "line-through" : "none"}} >
               
 
               <div className="img">
